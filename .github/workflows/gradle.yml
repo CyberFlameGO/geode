@@ -139,7 +139,7 @@ jobs:
        path: build/reports
        retention-days: 5
 
-   integrationTest:
+  integrationTest:
      needs: build
      strategy:
        matrix:
